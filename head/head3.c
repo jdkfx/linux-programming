@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    if (optind = argc) {
+    if (optind == argc) {
         do_head(stdin, nlines);
     } else {
         int i;
